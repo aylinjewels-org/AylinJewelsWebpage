@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    /* Fonts */
+    --font-source-4 : "Source Serif 4", serif;
+    --font-source-3: "Source Sans 3", sans-serif;
+    --font-playwrite: "Playwrite GB S", cursive;
+    --font-playfair: "Playfair Display", serif;
+    --font-source-code: "Source Code Pro", monospace;
+
+    /* Brand colors */
+    --color-darkPrimary: #1e1e1e;
+    --color-darkSecondary: #6B6B6B;
+    --color-lightPrimary: #FFFFFF;
+    --color-lightSecondary: #FAFAFA;
+    --color-button: #2c2c2c;
+    --color-buttonHover: #202020;
+}
+
+@layer components {
+    .nav-link {
+        @apply relative py-1 transition-colors duration-300 hover:text-darkPrimary;
+    }
+
+    .nav-link::after {
+        content: '';
+        @apply absolute bottom-0 left-0 w-0 h-[1px] bg-darkSecondary transition-all duration-300;
+    }
+
+    .nav-link:hover::after {
+        @apply w-full;
+    }
+}
