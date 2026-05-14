@@ -12,7 +12,7 @@ const GiftSection = () => {
         className="relative w-full aspect-[4/3] md:aspect-[16/7] bg-[#fefefe] border border-darkSecondary/10 overflow-hidden group shadow-sm"
       >
         {/* The baked image scales to fill the constant box size */}
-        <img src="../public/homepage/gift.jpg" alt="Surprise a Loved One" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]" />
+        <img src="/homepage/gift.jpg" alt="Surprise a Loved One" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]" />
 
 
         {/* Button Overlay */}

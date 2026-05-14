@@ -15,7 +15,7 @@ const Process = () => {
           className="h-[400px] md:h-[580px] w-full bg-[#fefefe] border border-darkSecondary/10 relative overflow-hidden group order-2 md:order-1"
         >
           {/* Add image path here */}
-          <img src="../public/homepage/aboutUs.jpg" alt="Our Process" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/homepage/aboutUs.jpg" alt="Our Process" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 flex items-center justify-center text-darkSecondary/50 font-source-3 text-sm">Image Placeholder</div>
         </motion.div>
 

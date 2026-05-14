@@ -26,7 +26,7 @@ const Collections = () => {
           className="w-full aspect-square bg-darkSecondary/10 relative overflow-hidden group"
         >
           {/* Add image here */}
-          <img src="../public/homepage/collection_section (2).jpg" alt="Everyday Wear Collection" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/homepage/collection_section (2).jpg" alt="Everyday Wear Collection" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
         </motion.div>
 
         <motion.div
@@ -80,7 +80,7 @@ const Collections = () => {
           className="order-1 md:order-2 w-full aspect-square bg-darkSecondary/10 relative overflow-hidden group"
         >
           {/* Add image here */}
-          <img src="../public/homepage/collection_section (1).jpg" alt="Occasional Collection" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <img src="/homepage/collection_section (1).jpg" alt="Occasional Collection" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
         </motion.div>
       </div>
       

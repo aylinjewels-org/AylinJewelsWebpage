@@ -3,15 +3,15 @@ import { motion } from 'motion/react';
 
 // Fake Data for the Bestsellers - Ready to be replaced by DB fetch based on "bestseller" tag
 const initialProducts = [
-  { id: 'b1', name: 'Elegance Ring', price: 120, imageUrl: '../public/homepage/bestseller/bestseller (1).png', tag: 'bestseller' },
-  { id: 'b2', name: 'Silver Hoop', price: 95, imageUrl: '../public/homepage/bestseller/bestseller (2).png', tag: 'bestseller' },
-  { id: 'b3', name: 'Diamond Pendant', price: 350, imageUrl: '../public/homepage/bestseller/bestseller (3).png', tag: 'bestseller' },
-  { id: 'b4', name: 'Rose Gold Band', price: 180, imageUrl: '../public/homepage/bestseller/bestseller (4).png', tag: 'bestseller' },
-  { id: 'b5', name: 'Pearl Choker', price: 210, imageUrl: '../public/homepage/bestseller/bestseller (5).png', tag: 'bestseller' },
-  { id: 'b6', name: 'Sapphire Studs', price: 290, imageUrl: '../public/homepage/bestseller/bestseller (6).png', tag: 'bestseller' },
-  { id: 'b7', name: 'Gold Bracelet', price: 400, imageUrl: '../public/homepage/bestseller/bestseller (7).png', tag: 'bestseller' },
-  { id: 'b8', name: 'Onyx Signet Ring', price: 150, imageUrl: '../public/homepage/bestseller/bestseller (8).png', tag: 'bestseller' },
-  { id: 'b9', name: 'Emerald Drop', price: 450, imageUrl: '../public/homepage/bestseller/bestseller (9).png', tag: 'bestseller' },
+  { id: 'b1', name: 'Elegance Ring', price: 120, imageUrl: '/homepage/bestseller/bestseller (1).png', tag: 'bestseller' },
+  { id: 'b2', name: 'Silver Hoop', price: 95, imageUrl: '/homepage/bestseller/bestseller (2).png', tag: 'bestseller' },
+  { id: 'b3', name: 'Diamond Pendant', price: 350, imageUrl: '/homepage/bestseller/bestseller (3).png', tag: 'bestseller' },
+  { id: 'b4', name: 'Rose Gold Band', price: 180, imageUrl: '/homepage/bestseller/bestseller (4).png', tag: 'bestseller' },
+  { id: 'b5', name: 'Pearl Choker', price: 210, imageUrl: '/homepage/bestseller/bestseller (5).png', tag: 'bestseller' },
+  { id: 'b6', name: 'Sapphire Studs', price: 290, imageUrl: '/homepage/bestseller/bestseller (6).png', tag: 'bestseller' },
+  { id: 'b7', name: 'Gold Bracelet', price: 400, imageUrl: '/homepage/bestseller/bestseller (7).png', tag: 'bestseller' },
+  { id: 'b8', name: 'Onyx Signet Ring', price: 150, imageUrl: '/homepage/bestseller/bestseller (8).png', tag: 'bestseller' },
+  { id: 'b9', name: 'Emerald Drop', price: 450, imageUrl: '/homepage/bestseller/bestseller (9).png', tag: 'bestseller' },
 ];
 
 const Bestsellers = () => {

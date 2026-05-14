@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 const fakeInstagramImages = [
-  { id: 'i1', url: '../public/homepage/instagram/instagram (1).jpg' },
-  { id: 'i2', url: '../public/homepage/instagram/instagram (2).jpg' },
-  { id: 'i3', url: '../public/homepage/instagram/instagram (3).jpg' },
-  { id: 'i4', url: '../public/homepage/instagram/instagram (4).jpg' },
-  { id: 'i5', url: '../public/homepage/instagram/instagram (5).jpg' },
-  { id: 'i6', url: '../public/homepage/instagram/instagram (6).jpg' },
+  { id: 'i1', url: '/homepage/instagram/instagram (1).jpg' },
+  { id: 'i2', url: '/homepage/instagram/instagram (2).jpg' },
+  { id: 'i3', url: '/homepage/instagram/instagram (3).jpg' },
+  { id: 'i4', url: '/homepage/instagram/instagram (4).jpg' },
+  { id: 'i5', url: '/homepage/instagram/instagram (5).jpg' },
+  { id: 'i6', url: '/homepage/instagram/instagram (6).jpg' },
 ];
 
 const Instagram = () => {

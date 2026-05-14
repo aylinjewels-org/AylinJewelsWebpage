@@ -9,7 +9,7 @@ const fakeProducts = [
     name: 'Sterling Ring',
     description: 'Elegant silver ring for women',
     price: 159,
-    imageUrl: '../public/homepage/newIn/newIn (1).png',
+    imageUrl: '/homepage/newIn/newIn (1).png',
     tag: 'new-in',
   },
   {
@@ -17,7 +17,7 @@ const fakeProducts = [
     name: 'Diamond Studs',
     description: 'Classic minimalist everyday wear',
     price: 249,
-    imageUrl: '../public/homepage/newIn/newIn (2).png',
+    imageUrl: '/homepage/newIn/newIn (2).png',
     tag: 'new-in',
   },
   {
@@ -25,7 +25,7 @@ const fakeProducts = [
     name: 'Gold Chain',
     description: '18k pure gold delicate chain',
     price: 320,
-    imageUrl: '../public/homepage/newIn/newIn (3).png',
+    imageUrl: '/homepage/newIn/newIn (3).png',
     tag: 'new-in',
   },
   {
@@ -33,7 +33,7 @@ const fakeProducts = [
     name: 'Pearl Drop Earrings',
     description: 'Freshwater pearls with silver hook',
     price: 185,
-    imageUrl: '../public/homepage/newIn/newIn (4).png',
+    imageUrl: '/homepage/newIn/newIn (4).png',
     tag: 'new-in',
   },
 ];
